@@ -1,0 +1,28 @@
+
+    //Arrow Function - Last few Questions in Assignment 3
+    
+    //Question 1
+    const materials = ['Hydrogen', 'Helium', 'Lithium', 'Beryllium'];
+    console.log(materials.map((material) => material.length));
+    //This returns the number of characters or letters present in the each element of the array list.
+
+    //Question 2
+    const simple = (a) => (a > 15 ? 15 : a);
+    console.log(simple(16));
+    console.log(simple(10));
+
+    //Question 3
+    // Easy array filtering, mapping, etc.
+
+    //Declare an array
+    const arr = [5, 6, 13, 0, 1, 18, 23];
+    console.log(arr); //Display the array
+
+    const sum = arr.reduce((a, b) => a + b);
+    console.log(sum); //The answer is 66
+
+    const even = arr.filter((v) => v % 2 === 0);
+    console.log(even);
+
+    const double = arr.map((v) => v * 2);
+    console.log(double);
